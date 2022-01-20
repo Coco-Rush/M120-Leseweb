@@ -1,0 +1,197 @@
+.background-image{
+    background-image:url('Bilder/Background.png');
+    background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+}
+.navbar-content	{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+    
+.navbar-content a {
+    background-color: #d4f3f3;
+    font-size:55px;
+    text-decoration: none;
+    text-align: center;
+    border:4px;
+    border-style: solid;
+    border-color: #16909D;
+    border-radius:55px;
+    padding: 10px 10px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+.navbar-content a:hover	{
+    text-decoration: none;
+    background-color:#f0fafa;
+}
+.navbar-content input{
+    width: 48%;
+    margin-left: 50px;
+    margin-right: -5px;
+    padding-left: 25px;
+    font-size: 40px;
+    text-decoration: none;
+    color:white;
+    border: none;
+    border-bottom: solid white;
+    background:none;
+}
+.navbar-content label{
+    width: 50%;
+    margin-left: 35px;
+    margin-right: -5px;
+    padding-left: 25px;
+    font-size: 40px;
+    text-decoration: none;
+    color:black;
+    border: none;
+    border-bottom: solid black;
+    background:none;
+}
+::placeholder { 
+    font-style: italic;
+    color:currentColor;
+    opacity: 1; /* Firefox */
+  }
+.navbar-content button{
+    margin-left: 0px;
+    background: none;
+    border:none;
+    border-bottom:solid white;
+    color:white;
+    text-decoration: none;
+    font-size: 40px;
+}
+    
+.menu-content{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 100px;
+    text-align: center;
+    }
+    
+.menu-content a{
+    background-color: #d4f3f3;
+    font-size:55px;
+    text-decoration: none;
+    text-align: center;
+    border:4px;
+    border-style: solid;
+    border-color: #16909D;
+    border-radius:55px;
+    padding: 10px 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+    
+.menu-content a:hover{
+    background-color:#f0fafa;
+    text-decoration: none;
+}
+.content-wrapper{
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+}
+.content-wrapper-lib{
+    margin-top: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+    justify-content: center;
+}
+.scrolling-wrapper {
+    overflow-x:visible;
+    -webkit-overflow-scrolling: touch;
+    display: grid;
+    grid-gap: 1rem;
+    grid-auto-flow: column;
+    min-height: 0vh;
+    min-width: 100vw;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.img {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border:solid 4px;
+    border-color: #16909D;
+    justify-content: center;
+}
+.columns { 
+    max-height: max-content;
+    width:100vw;
+    size: cover;
+    border-left:solid 1px rgb(221, 214, 214);
+}
+.side{
+    width:11.7%;
+}
+.middle{
+    width:76.4%;
+    min-height: 100vh;
+    height: fit-content;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top:150px;
+    background-color: white;
+}
+.row:after {
+   content:"";
+}
+.storywrite{
+    width:100%;
+    min-height: 60vh;
+    max-height: fit-content;
+    font-size: 22px;
+    text-align: left;
+    border:none;
+    overflow-y: visible;
+    height: 200vh;
+    margin-bottom: 250px;
+}
+.storyread{
+    width:100%;
+    min-height: 60vh;
+    max-height: fit-content;
+    font-size: 22px;
+    text-align: left;
+    height: fit-content;
+}
+.storyimage{
+    background-repeat:no-repeat;
+	background-attachment:fixed;
+    background-position-x: left;
+    background-size:contain;
+    background-image:url('Bilder/joblessreincarnation-column-bkground.jpg');  
+}
+.files{
+    margin:120px 200px 250px 200px;
+    padding-top:50px;
+    
+}
+.files a{
+    display: block;
+    text-align: left;
+    font-size: 24px;
+    margin: 20px 0px 20px 0px;
+    padding: 30px 0px 30px 50px;
+    border:solid #16909D;
+    background-color: white;
+    color:black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.files a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: #d4f3f3;
+}
