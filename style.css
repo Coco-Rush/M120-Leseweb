@@ -113,12 +113,12 @@
     display: grid;
     grid-gap: 1rem;
     grid-auto-flow: column;
-    min-height: 0vh;
-    min-width: 100vw;
+    min-height: 30vh;
+    min-width: 20vw;
     padding-left: 250px;
     padding-right: 250px;
 }
-.img {
+.img{
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 5px;
